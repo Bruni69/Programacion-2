@@ -14,8 +14,9 @@ determine cuál es el mayor.*/
 public class ejercicio2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int num1, num2, num3;
+        int num1, num2, num3;       //variables
         
+                    // Salida e Ingreso de datos
         System.out.println("ingrese el primer numero de tres para evaluar cual es el mayor");
         num1 = Integer.parseInt(input.nextLine());
         System.out.println("ingrese el segundo numero de tres ");
@@ -23,7 +24,8 @@ public class ejercicio2 {
         System.out.println("ingrese el tercer numero");
         num3 = Integer.parseInt(input.nextLine());
         
-        if(num1 > num2 && num1 > num3){
+                    //Inicia el condicional y salida de datos
+        if(num1 > num2 && num1 > num3){     
             System.out.println("El numero " + num1+ " es el mayor"); 
         } else if (num2 > num3 && num2 > num1){
             System.out.println("El numero " + num2+ " es el mayor");
