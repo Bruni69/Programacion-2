@@ -8,6 +8,6 @@ package trabajopractico2;
  *
  * @author User
  */
-class input {
+public class NewClass {
     
 }
